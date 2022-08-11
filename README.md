@@ -1,6 +1,6 @@
 <p>
 <img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN"/>
-<img src="https://img.shields.io/static/v1?label=licene&message=MIT&color=green" />
+<img src="https://img.shields.io/static/v1?label=licene&message=GNU&color=green" />
 </p>
 
 # Wordpress plugin example - shortcodes
