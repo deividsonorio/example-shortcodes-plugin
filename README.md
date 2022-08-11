@@ -3,9 +3,9 @@
 <img src="https://img.shields.io/static/v1?label=licene&message=GNU&color=green" />
 </p>
 
-# Wordpress plugin example - shortcodes
+# WordPress plugin example - shortcodes
 
-Wordpress plugin example, adding some shortcodes that can be used in pages and posts.
+WordPress plugin example, adding some shortcodes that can be used in pages and posts.
 
 ## Shortcodes available
 - **[hello_world]**
