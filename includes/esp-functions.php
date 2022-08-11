@@ -6,7 +6,7 @@
  * @return void
  */
 function hello_world() {
-    echo "<span>Hello Wordl!</span>";
+    return "<span>Hello Wordl!</span>";
 }
 add_shortcode('hello_world', 'hello_world');
 
@@ -125,12 +125,12 @@ function random_joke($params)
     if($status == 200) {
         $body = json_decode(wp_remote_retrieve_body( $response ));
         if($body->type == 'single'){
-            echo "<div class='random_joke_shortcode'><p>{$body->joke}</p></div>";
+            return "<div class='random_joke_shortcode'><p>{$body->joke}</p></div>";
         } else {
-            echo "<div class='random_joke_shortcode'><p>{$body->setup}</p><p>{$body->delivery}</p></div>";
+            return "<div class='random_joke_shortcode'><p>{$body->setup}</p><p>{$body->delivery}</p></div>";
         }
     } else {
-        echo "There was an error getting a joke, and that's no joke.";
+        return "There was an error getting a joke, and that's no joke.";
     }
 
 }
