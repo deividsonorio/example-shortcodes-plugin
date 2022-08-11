@@ -1,5 +1,5 @@
 <p>
-<img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN"/>
+<img src="https://img.shields.io/static/v1?label=STATUS&message=IN%20DEVELOPMENT&color=GREEN"/>
 <img src="https://img.shields.io/static/v1?label=licene&message=GNU&color=green" />
 </p>
 
